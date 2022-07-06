@@ -1,0 +1,630 @@
+/* ELEMENTS REQUIREMENTS*/
+
+
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.img{
+    display: block;
+}
+
+:root{
+    --accent-color:#2196F3;
+    --original-color:#212121;
+    --p-color:#757575;
+    --sidebar-color:#2F303A;
+    --white-color: #FFFFFF ;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+.list{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+/*p{
+font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}*/
+
+/*containers section*/
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-container{
+ display: flex;
+ align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.web-studio-link{
+
+    
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+        width: 145px;
+        height: 31px;
+        margin-right: 93px;
+        margin-top: 25px;
+     
+
+
+       
+       
+
+}
+
+.link-accent-dark{
+       
+        color: #000000;
+}
+
+.link-accent-light{
+    color: var(--white-color);
+}
+
+/*menu-lists*/
+
+.menu-list{
+ 
+    display: flex;
+
+   
+}
+
+
+.menu-item:not(:last-child){
+    margin-right:50px;
+}
+.menu-link{
+ 
+        
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        padding:32px 0;
+        display: block;
+        color: var(--original-color);
+    
+}
+
+
+
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--accent-color);
+}
+
+/* Contacts section */
+
+.mail-section{
+   
+
+    width: 135px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--p-color);
+}
+
+.mail-section:hover,
+.mail-section:focus{
+    color:var(--accent-color);
+}
+
+.telefon-section{
+  
+
+    width: 122px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--p-color);
+}
+
+.telefon-section:hover,
+telefon-section:focus{
+color: var(--accent-color);
+
+}
+
+.contacts-list{
+    
+    display: flex;
+    margin-left: auto;
+}
+    
+    .contacts-item:not(:last-child){
+        margin-right: 50px;
+        
+    
+  
+    }
+   
+/* HERO section*/
+.hero{
+    
+
+    width: 1600px;
+    height: 600px;
+    background: var(--sidebar-color);
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+.hero-two{
+
+    width: 1600px;
+    height: 252px;
+    background: var(--sidebar-color);
+    margin: 0 auto;
+    padding-top: 61px;
+    padding-bottom: 161px;
+}
+
+.Effects-business-section{
+/* position:absolute;
+    
+    left: 452px;
+    top: 280px;*/
+   
+
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align:center;
+    color: var(--white-color);
+    text-transform: uppercase;
+    
+}
+
+.order-services-button{
+   
+       background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor:pointer;
+        margin-top: 30px;
+        margin-left: 700px;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            /* identical to box height, or 188% */
+        
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+        
+            color: var(--white-color);
+}
+
+/* Why we section*/
+
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main-list{
+display: flex;
+align-items: center;
+list-style: none;
+margin-top: 94px;
+}
+
+.main-item:not(:last-child) {
+    margin-right: 30px;
+
+
+
+}
+
+.detail-section{
+    /*position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;*/
+
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--original-color);
+    margin-right: 30px;
+}
+
+
+
+.punctuality-section{
+    /*position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 515px;
+    top: 774px;*/
+
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--original-color);
+}
+
+
+
+.planning-section{
+    /*position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 815px;
+    top: 774px;*/
+
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--original-color);
+}
+
+
+.technologies-section{
+    /*position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 1115px;
+    top: 774px;*/
+
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--original-color);
+}
+
+.section-deskription{
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+
+    
+        letter-spacing: 0.03em;
+    
+        color: var(--p-color);
+}
+
+/* About us section */
+.about-us-section{
+    /* position: absolute;
+        width: 376px;
+        height: 42px;
+        left: 612px;
+        top: 969px;*/
+    
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: var(--original-color);
+        margin-top: 94px;
+}
+
+.image-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 50px;
+margin-bottom: 90px;
+}
+
+.image-item:not(:last-child) {
+    margin-right: 30px;
+
+
+
+}
+
+.Desktop{
+/* position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1061px;*/
+    background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+}
+
+.Mobile{
+/* position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1061px;*/
+    background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+
+.Dezign{
+    /*position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1061px;*/
+    background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+
+/* Our team section*/
+.us-command{
+    /*  position: absolute;
+        width: 264px;
+        height: 42px;
+        left: 668px;
+        top: 1543px;*/
+    
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: var(--original-color);
+        margin-bottom: 30px;
+    }
+
+.our-team{
+    width: 1600px;
+    height: 648px; 
+    margin: 0 auto;
+    background: #F5F4FA;
+    margin-bottom: 50px;
+}
+
+.card-list{
+    
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+
+/*.cards-item:not(:last-child) {
+    margin-right: 30px;
+
+
+
+}*/
+
+.glassman{        
+/* position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 215px;
+    top: 1635px;*/
+    background: url(4853.jpg);
+    border-radius: 0px;
+    
+}
+
+
+.persons{
+/* position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 275px;
+    top: 1925px;*/
+
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--original-color);
+    
+}
+
+.proffessions{
+
+/*  position: absolute;
+    width: 130px;
+    height: 19px;
+    left: 285px;
+    top: 1954px;*/
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--p-color);
+
+
+}
+
+.cards{
+    background: #FFFFFF;
+        /* material shadow v1 */
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        
+}
+
+
+
+.blond-girl{
+/*  position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 515px;
+    top: 1635px;*/
+
+    background: url(5844.jpg);
+    border-radius: 0px;
+}
+
+
+
+.tshirt-man{
+/* position: absolute;
+    width: 270px;
+    height: 260px;
+    left: 815px;
+    top: 1635px;*/
+
+    background: url(16166.jpg);
+    border-radius: 0px;
+}
+
+
+.man-in-black{
+    position: absolute;
+    /*width: 270px;
+    height: 260px;
+    left: 1115px;
+    top: 1635px;*/
+
+    background: url(2968.jpg);
+    border-radius: 0px;
+}
+
+/*page 2 */
+
+.button-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+
+}
+
+.buttons-list{
+    display: flex;
+    align-items: center;
+    margin-left: 516px;
+}
+
+.button-item:not(:last-child) {
+    margin-right: 10px;
+
+
+
+}
+
+.button-link{
+    color: #000000;
+    background: #F5F4FA;
+        border-radius: 4px;
+}
+
+/*Buttons section */
+.button-link:hover,
+.button-link:focus{
+background: var(--accent-color);
+color: var(--white-color);
+}
+
+/* projects section*/
+.products{
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+
+    
+        letter-spacing: 0.06em;
+    
+        color: var(--original-color);
+}
+
+.containers{
+box-sizing: border-box;
+
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.services{
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+
+    
+        letter-spacing: 0.03em;
+    
+        color: var(--p-color);
+}
+
+/* sidebar page 2 section */
+.adress-item{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--white-color);
+}
